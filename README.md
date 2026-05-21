@@ -1,7 +1,16 @@
 # troyshannon94.github.io
-Static test web page
+Static test web page. The button below will send 
 <h1>
-<button onclick="gtag('event', 'button_click', { 'button_text': 'click_here', 'button_location': 'header' });">
-  Click Here
-</button>
+
+  <button id="my-button" onclick="trackButtonClick()">Click Me</button>
+
+<script>
+function trackButtonClick() {
+  gtag('event', 'button_clicked', {
+    'button_name': 'Sign Up Button',
+    'location': 'Homepage'
+  });
+}
+</script>
+
 </h1>
