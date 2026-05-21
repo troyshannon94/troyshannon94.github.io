@@ -1,6 +1,6 @@
 # troyshannon94.github.io
 <h1>
-Static test web page. The button below will sen an event to GA4
+Static test web page. The button below will send an event to GA4
 </h1>
 
 <h2>
